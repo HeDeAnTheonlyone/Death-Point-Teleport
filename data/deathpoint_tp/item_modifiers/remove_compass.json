@@ -1,0 +1,11 @@
+{
+    "function": "minecraft:set_count",
+    "count": {
+        "type": "minecraft:score",
+        "target": {
+            "type": "minecraft:fixed",
+            "name": "#internal"
+        },
+        "score": "deathpoint_tp.itemcount"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "offhand": {
+                            "items": [
+                                "minecraft:recovery_compass"
+                            ]
+                        }
+                    }
+                },
+                "item": {
+                    "items": [
+                        "minecraft:chorus_fruit"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "deathpoint_tp:init_tp"
+    }
+}
